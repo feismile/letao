@@ -1,0 +1,366 @@
+/*
+* @Author: Administrator
+* @Date:   2017-11-18 19:19:59
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-11-19 12:15:55
+*/
+
+
+/* 版心 */
+.happy {
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+/* 导航 */
+.le{
+	width: 100%;
+	height: 44px;
+	background: #006699;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 10;
+}
+
+.le span{
+	display: block;
+	height: 100%;
+	font-size: 16px;
+	line-height: 44px;
+	text-align: center;
+	color:#fff;
+}
+
+.le i{
+	display: block;
+	width: 33px;
+	height: 29px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-top: 7px;
+	margin-right: 10px;
+	background-image: url(../images/jd-sprites.png);
+	background-position:-165px 0px;
+	/* background-size: 200px 200px; */
+}
+
+
+/* 轮播图 */
+.lun{
+	width: 100%;
+	height: 100%;
+	 /* vertical-align: middle; */
+}
+
+.lun img{
+	padding-top: 35px;
+	width: 100%;
+	vertical-align: middle;
+}
+
+
+/* 鞋的部分 */
+.shoes_top{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.shoes_top ul{
+	width: 100%;
+	height: 100%;
+	padding: 10px 10px;
+	box-sizing:border-box;
+	overflow: hidden;
+}
+.shoes_top a{
+	display: block;
+	float: left;
+	width: 33.33333%;
+	height: 100%;
+	text-align: center;
+}
+
+.shoes_top a img{
+	width: 100%;
+	height: 100%;
+}
+
+/* 女人和鞋部分 */
+.girl{
+	width: 100%;
+	height: 100%;
+	padding: 0 10px;
+	box-sizing:border-box;
+		overflow: hidden;
+}
+
+.girl .girl_shoe{
+	width: 67%;
+	height: 100%;
+	float: left;
+
+}
+
+.girl_shoe ul{
+	width: 100%;
+	height: 100%;
+}
+
+.girl_shoe li{
+	float: left;
+}
+
+.girl_shoe li:first-child{
+	width: 50%;
+	height: 95px;
+}
+.girl_shoe li:nth-child(2){
+	width: 50%;
+	height: 95px;
+}
+.girl_shoe li:nth-child(3){
+	width: 50%;
+	height: 110px;
+}
+.girl_shoe li:nth-child(4){
+	width: 50%;
+	height: 110px;
+}
+.girl_shoe li a{
+	display: block;
+	width: 100%;
+}
+.girl_shoe li img{
+	width: 100%;
+}
+
+.girl .sale{
+	width: 33%;
+	height: 100%;
+	float: right;
+}
+.girl .sale a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.girl .sale img{
+	width: 100%;
+	height: 205px;
+}
+
+/* 品牌专区 */
+.pin{
+	width: 100%;
+	height: 100%;
+	margin-top: 3px;
+	padding: 0 10px;
+	box-sizing:border-box;
+}
+.pin a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.pin img{
+	width: 100%;
+	height: 44px;
+}
+
+
+/* 各种表示部分 */
+
+.logo{
+
+	width: 100%;
+	height: 100%;
+	padding: 10px 10px;
+	box-sizing:border-box;
+}
+
+.logo ul{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.logo li {
+	float: left;
+	width: 25%;
+	height: 100%;
+}
+.logo li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.logo li img{
+	width: 100%;
+	height: 35px;
+}
+
+ /* 运动生活专区 */
+.live{
+	width: 100%;
+	height: 100%;
+	margin-top: 3px;
+	padding: 0 10px;
+	box-sizing:border-box;
+}
+.live a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.live img{
+	width: 100%;
+}
+
+
+/* 四双鞋 */
+.four{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.four ul{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;	
+	padding: 0 10px;
+	box-sizing:border-box;
+	margin-bottom: 20px;
+}
+
+.four li{
+	float: left;
+	width: 47%;
+	height: 100%;
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px  6px 1px #ccc;
+	height: 277px;
+	text-align: center;
+	position: relative;
+}
+
+.four li:nth-child(odd){
+	margin-right: 12px;
+}
+.four ul li:nth-child(-n+2){
+	margin-bottom: 10px;
+}
+
+.four li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.four li span{
+	display: block;
+	font-size: 14px;
+	color: #9d9dae;
+	margin: 20px 25px;
+}
+
+.four li i{
+	color: red;
+	margin-right: 10px;
+}
+.four li del{
+	text-decoration: line-through;
+}
+
+.four li a:last-child{
+	position: absolute;
+	bottom: 15px;
+	left: 50%;
+	margin-left: -40px;
+	display: block;
+	width: 80px;
+	height: 32px;
+	background: #006699;
+	color:#fff;
+	line-height: 32px;
+}
+
+.four li img{
+	width: 134px;
+}
+
+
+/* 练习伸缩盒子 */
+.box{
+	width: 100%;
+	height:100%;
+	padding: 0 10px;
+	box-sizing:border-box;
+}
+.box ul{
+	width: 100%;
+	/* height: 100%; */
+	display: flex;
+}
+
+.box li{
+	flex:1;
+	height: 100%;
+} 
+
+
+.box a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.box img{
+	width: 100%;
+	vertical-align: middle;
+}
+
+
+
+
+/* 底部固定导航栏 */
+
+.bot{
+	width: 100%;
+	height: 44px;
+}
+.bottom_nav {
+	width: 100%;
+	height: 44px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 10;
+	background: #fff;
+}
+.bottom_nav ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+
+.bottom_nav ul li{
+	flex:1;
+	height: 100%;
+	margin: 0 10px;
+}
+.bottom_nav ul a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.bottom_nav img{
+	width: auto;
+	height: 100%;
+}
